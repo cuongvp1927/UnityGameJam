@@ -35,7 +35,6 @@ public class Hand : MonoBehaviour
             Quaternion rotation = Quaternion.LookRotation(-up, Vector3.Cross(-up,forward).normalized);
             cardList[i].transform.DOMove(splinePos + transform.position + 0.01f * i * Vector3.back, duration);
             cardList[i].transform.DORotate(rotation.eulerAngles, duration);
-            Debug.Log("Card number " + i + " pos: " + cardList[i].transform.position);
         }
         yield return new WaitForSeconds(duration);
     }
