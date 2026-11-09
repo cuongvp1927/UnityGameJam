@@ -24,6 +24,8 @@ public class GameActionSystem : Singleton<GameActionSystem>
     private static Dictionary<Type, Func<GameAction, IEnumerator>> performers = new();
     public void Perform(GameAction action, System.Action OnPerformFinished = null)
     {
+        Debug.Log(action.GetType());
+
         if (isPerforming) return;
         isPerforming = true;
         StartCoroutine(Flow(action, () => 

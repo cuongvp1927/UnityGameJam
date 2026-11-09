@@ -7,6 +7,9 @@ public class DeadHandBtn : MonoBehaviour
     public void OnClick()
     {
         TurnAction turnAction = new();
+        Debug.Log(GameActionSystem.Instance);
+
         GameActionSystem.Instance.Perform(turnAction);
+
     }
 }

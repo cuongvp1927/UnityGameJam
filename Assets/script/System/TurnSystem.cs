@@ -16,9 +16,9 @@ public class TurnSystem : MonoBehaviour
     }
     private IEnumerator TurnPerformer(TurnAction turnAction)
     {
-        Debug.Log("Turn over");
+        Debug.Log("Start end turn");
         yield return new WaitForSeconds(2);
-        Debug.Log("Turn really over");
+        Debug.Log("Turn over");
 
     }
 }

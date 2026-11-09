@@ -22,11 +22,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 445624118894983173, guid: 1868dbd15b3e41046974b29b99a90132, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.77341
+      value: -1.422701
       objectReference: {fileID: 0}
     - target: {fileID: 445624118894983173, guid: 1868dbd15b3e41046974b29b99a90132, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.81394
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 445624118894983173, guid: 1868dbd15b3e41046974b29b99a90132, type: 3}
       propertyPath: m_LocalPosition.z
@@ -64,9 +64,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3840686767058308477, guid: 1868dbd15b3e41046974b29b99a90132, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: acb888177cb9a5348aed2bcca0762bda, type: 3}
+    - target: {fileID: 3840686767058308477, guid: 1868dbd15b3e41046974b29b99a90132, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5024068358436805158, guid: 1868dbd15b3e41046974b29b99a90132, type: 3}
       propertyPath: m_Name
       value: CardPrefabHover Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024068358436805158, guid: 1868dbd15b3e41046974b29b99a90132, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186807334366309258, guid: 1868dbd15b3e41046974b29b99a90132, type: 3}
+      propertyPath: cardValue
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
