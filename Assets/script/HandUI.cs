@@ -1,17 +1,16 @@
-using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.Splines;
 using System.Collections.Generic;
 using System.Collections;
 using DG.Tweening;
 
-public class Hand : MonoBehaviour
+public class HandUI : MonoBehaviour
 {
     [SerializeField] private SplineContainer splineContainer;
     [SerializeField] private float maxHandSize;
-    private readonly List<Card> cardList = new();
+    private readonly List<CardUI> cardList = new();
 
-    public IEnumerator AddCard(Card newCard)
+    public IEnumerator AddCard(CardUI newCard)
     {
         cardList.Add(newCard);
         yield return UpdateCardPos(0.5f);
